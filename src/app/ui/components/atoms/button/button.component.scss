@@ -1,0 +1,38 @@
+$font_servicad: Roboto;
+$primary-color: #001782;
+$secondary-color: #98bf13;
+
+$h1: 20px;
+$texto_button: 14px;
+
+
+.blue-servicad {
+  color: $primary-color;
+  font-family: $font_servicad;
+}
+
+h1{
+  font-size: $h1;
+}
+
+.primary-servicad{
+  font-family: $font_servicad;
+  font-size: $texto_button;
+  color: white;
+  padding: 3px 10px 3px 10px;
+  border: 1px solid $primary-color;
+  border-radius: 7px;
+  background-color: $primary-color;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  margin: 10px;
+}
+
+.primary-servicad:hover {
+  background-color: #0325bde6;
+  box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+}
+
+.primary-servicad:active {
+  background-color: #00115ee6;
+  box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+}
