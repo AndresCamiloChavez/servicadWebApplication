@@ -45,7 +45,8 @@ import {MatIconModule} from '@angular/material/icon';
   ],
   exports: [
     ButtonComponent,
-    InputComponent
+    InputComponent,
+    LoginFormComponent
   ]
 })
 export class UiModule { }
