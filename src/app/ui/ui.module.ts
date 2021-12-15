@@ -14,7 +14,9 @@ import { NewPassFormComponent } from './components/organisms/new-pass-form/new-p
 import { EmailDirective } from './directives/email.directive';
 import { PasswordDirective } from './directives/password.directive';
 import { DatePipe } from './pipes/date.pipe';
-
+import { MatButtonModule } from '@angular/material/button';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
@@ -33,9 +35,17 @@ import { DatePipe } from './pipes/date.pipe';
     EmailDirective,
     PasswordDirective,
     DatePipe
+
+
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatIconModule,
+    MatButtonModule
+  ],
+  exports: [
+    ButtonComponent,
+    InputComponent
   ]
 })
 export class UiModule { }
