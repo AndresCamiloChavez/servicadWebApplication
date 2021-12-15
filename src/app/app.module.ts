@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { PagesModule } from './pages/pages.module';
 
 import { AppComponent } from './app.component';
+import {UiModule} from "./ui/ui.module";
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    PagesModule
+    PagesModule,
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -36,6 +36,9 @@ import { DatePipe } from './pipes/date.pipe';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    ButtonComponent
   ]
 })
 export class UiModule { }
