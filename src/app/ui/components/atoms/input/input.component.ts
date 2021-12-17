@@ -1,13 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-input',
+  selector: 'input-srv',
   templateUrl: './input.component.html',
   styleUrls: ['./input.component.scss']
 })
 export class InputComponent implements OnInit {
 
-  constructor() { }
+  @Input() titleBoxInput = "";
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

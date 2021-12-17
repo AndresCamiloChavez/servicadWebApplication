@@ -9,7 +9,9 @@ export class ButtonComponent implements OnInit {
 
   @Input() titleButton = "";
 
-  constructor() { }
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

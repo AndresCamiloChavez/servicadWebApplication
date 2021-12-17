@@ -1,17 +1,25 @@
-<h1>Bienvenido a la aplicación de {{title}}</h1>
-<app-home></app-home>
-adding new branch for login
-<button-srv titleButton=PRUEBA></button-srv>
-
-
-<section>
-  <div class="example-label">Raised</div>
-  <div class="example-button-row">
-    <button mat-raised-button>Basic</button>
-    <button mat-raised-button color="primary">Primary</button>
-    <button mat-raised-button color="accent">Accent</button>
-    <button mat-raised-button color="warn">Warn</button>
-    <button mat-raised-button disabled>Disabled</button>
-    <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a>
+<nav class="navbar navbar-light bg-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"
+           class="d-inline-block align-text-top">
+      {{title}}
+    </a>
   </div>
-</section>
+</nav>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <h1>Bienvenido a la aplicación de {{title}}</h1>
+    </div>
+    <div class="col-sm-6 col-sm-offset-3">
+      <page-login></page-login>
+    </div>
+  </div>
+</div>
+
+
+
+

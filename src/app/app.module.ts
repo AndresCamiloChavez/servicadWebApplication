@@ -3,9 +3,13 @@ import {BrowserModule} from '@angular/platform-browser';
 import {PagesModule} from './pages/pages.module';
 
 import {AppComponent} from './app.component';
-import {UiModule} from "./ui/ui.module";
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from "@angular/material/icon";
+import {MatDividerModule} from "@angular/material/divider";
+import {MatCardModule} from "@angular/material/card";
+import {MatProgressBarModule} from "@angular/material/progress-bar";
+
 
 @NgModule({
   declarations: [
@@ -14,9 +18,12 @@ import {MatButtonModule} from '@angular/material/button';
   imports: [
     BrowserModule,
     PagesModule,
-    UiModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule,
+    MatDividerModule,
+    MatCardModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
